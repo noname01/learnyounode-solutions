@@ -12,4 +12,4 @@ var server = net.createServer(function(socket){
     socket.end(response);
 });
 
-server.listen(process.argv[2]);
+server.listen(+process.argv[2]);
